@@ -14,7 +14,7 @@ ADMIN_ID = os.environ.get('ADMIN_ID')
 GITHUB_USERNAME = os.environ.get('GITHUB_USERNAME')
 WEBHOOK_SECRET = os.environ.get('WEBHOOK_SECRET')  # опционально
 
-SHOP_URL = f"https://{GITHUB_USERNAME}.github.io/chapman-shop/"
+SHOP_URL = f"https://{GITHUB_USERNAME}.github.io/chapman_shop/"
 
 # -------- Flask App --------
 app = Flask(__name__)
