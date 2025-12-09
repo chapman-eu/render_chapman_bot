@@ -1,3 +1,4 @@
-Flask==2.3.2
-aiogram==2.25.1
-gunicorn==20.1.0
+aiohttp>=3.9.0,<4.0
+requests>=2.31.0,<3.0
+numpy>=1.26.0,<2.0
+# Add any other dependencies your project needs
