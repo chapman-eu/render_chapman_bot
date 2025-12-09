@@ -1,4 +1,11 @@
+# Web server
+gunicorn>=22.0.0,<23.0.0
+
+# HTTP client libraries
 aiohttp>=3.9.0,<4.0
 requests>=2.31.0,<3.0
+
+# Math / data
 numpy>=1.26.0,<2.0
+
 # Add any other dependencies your project needs
